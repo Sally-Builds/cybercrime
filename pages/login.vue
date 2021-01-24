@@ -79,6 +79,11 @@ import { mapActions } from 'vuex'
 export default {
   // middleware: 'guest',
   auth: 'guest',
+  head() {
+    return {
+      title: 'login',
+    }
+  },
   data() {
     return {
       email: '',

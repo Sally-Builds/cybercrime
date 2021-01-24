@@ -68,7 +68,13 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      title: 'CCMRA',
+    }
+  },
+}
 </script>
 
 <style>

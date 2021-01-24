@@ -57,7 +57,11 @@ export default {
   computed: {
     ...mapState('questions', ['cyberTips']),
   },
-  mounted() {},
+  head() {
+    return {
+      title: 'What is Cyber Crime?',
+    }
+  },
 }
 </script>
 

@@ -72,6 +72,11 @@ export default {
       // this.$router.push('/')
     },
   },
+  head() {
+    return {
+      title: 'Question 4',
+    }
+  },
 }
 </script>
 

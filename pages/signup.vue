@@ -91,6 +91,11 @@ import { mapActions } from 'vuex'
 export default {
   // middleware: 'guest',
   auth: 'guest',
+  head() {
+    return {
+      title: 'Sign up',
+    }
+  },
   data() {
     return {
       name: '',

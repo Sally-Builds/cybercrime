@@ -97,6 +97,11 @@ export default {
       this.$router.push('/reportcrime/question1')
     },
   },
+  head() {
+    return {
+      title: 'Report Crime',
+    }
+  },
 }
 </script>
 

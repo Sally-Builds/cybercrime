@@ -35,6 +35,11 @@ export default {
     Pie,
     Dou,
   },
+  head() {
+    return {
+      title: 'Dashboard',
+    }
+  },
   data() {
     return {
       title: 'Crime Zone Rating',

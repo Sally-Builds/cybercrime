@@ -59,6 +59,11 @@ export default {
       this.$router.push('/reportcrime/question3')
     },
   },
+  head() {
+    return {
+      title: 'Question 2',
+    }
+  },
 }
 </script>
 
