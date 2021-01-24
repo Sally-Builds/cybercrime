@@ -77,7 +77,7 @@
       <v-footer style="background-color: #04233d" absolute padless>
         <v-col class="text-center white--text text-caption">
           {{ new Date().getFullYear() }} -
-          <span class="text-caption">Cyber Crime Management Agency</span>
+          <span class="text-caption">Cyber Crime Management Report Agency</span>
         </v-col>
       </v-footer>
       <v-overlay :value="overlay">

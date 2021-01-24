@@ -9,8 +9,8 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: '%s - client',
-    title: 'client',
+    titleTemplate: '%s - Cyber Crime',
+    title: 'Cyber Crime',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -40,7 +40,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    // '@nuxtjs/proxy',
+    '@nuxtjs/proxy',
     '@nuxtjs/auth-next',
     // [
     //   '@nuxtjs/proxy',
